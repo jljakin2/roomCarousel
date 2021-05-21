@@ -21,11 +21,18 @@
     <title>Frontend Mentor | Room homepage</title>
   </head>
   <body>
+    <div class="blackout"></div>
     <nav>
+      <img
+        src="./images/icon-hamburger.svg"
+        alt="hamburger"
+        class="hamburger"
+      />
       <a href="#"
         ><img src="./images/logo.svg" alt="company logo" class="logo"
       /></a>
       <ul class="nav-container">
+        <img src="./images//icon-close.svg" alt="close" class="close" />
         <li class="nav-item"><a href="#">Home</a></li>
         <li class="nav-item"><a href="#">Shop</a></li>
         <li class="nav-item"><a href="#">About</a></li>
@@ -37,7 +44,7 @@
       <div class="carousel">
         <div class="track-container">
           <ul class="track">
-            <li class="slide">
+            <li class="slide current-slide">
               <div class="slide__image-container">
                 <img
                   src="./images/desktop-image-hero-1.jpg"
@@ -58,25 +65,69 @@
                   reflection of you and what you love.
                 </p>
                 <button class="slide__button">
-                  Shop now
-                  <img src="./images/icon-arrow.svg" alt="arrow" />
+                  <a href="#">
+                    Shop now
+                    <img src="./images/icon-arrow.svg" alt="arrow" />
+                  </a>
                 </button>
-
-                <div class="button-container">
-                  <button class="btn btn--left">
-                    <img src="./images/icon-angle-left.svg" alt="left angle" />
-                  </button>
-                  <button class="btn btn--right">
-                    <img
-                      src="./images/icon-angle-right.svg"
-                      alt="right angle"
-                    />
-                  </button>
-                </div>
               </div>
             </li>
-            <li class="slide"></li>
-            <li class="slide"></li>
+            <li class="slide">
+              <div class="slide__image-container">
+                <img
+                  src="./images/desktop-image-hero-2.jpg"
+                  alt="chair and table"
+                  class="slide__image"
+                />
+              </div>
+
+              <div class="slide__content">
+                <h1 class="slide__title">
+                  We are available all across the globe
+                </h1>
+                <p class="slide__description">
+                  With stores all over the world, it's easy for you to find
+                  furniture for your home or place of business. Locally, we’re
+                  in most major cities throughout the country. Find the branch
+                  nearest you using our store locator. Any questions? Don't
+                  hesitate to contact us today.
+                </p>
+                <button class="slide__button">
+                  <a href="#">
+                    Shop now
+                    <img src="./images/icon-arrow.svg" alt="arrow" />
+                  </a>
+                </button>
+              </div>
+            </li>
+            <li class="slide">
+              <div class="slide__image-container">
+                <img
+                  src="./images/desktop-image-hero-3.jpg"
+                  alt="chair and table"
+                  class="slide__image"
+                />
+              </div>
+
+              <div class="slide__content">
+                <h1 class="slide__title">
+                  Manufactured with the best materials
+                </h1>
+                <p class="slide__description">
+                  Our modern furniture store provide a high level of quality.
+                  Our company has invested in advanced technology to ensure that
+                  every product is made as perfect and as consistent as
+                  possible. With three decades of experience in this industry,
+                  we understand what customers want for their home and office.
+                </p>
+                <button class="slide__button">
+                  <a href="#">
+                    Shop now
+                    <img src="./images/icon-arrow.svg" alt="arrow" />
+                  </a>
+                </button>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
@@ -104,37 +155,17 @@
           in between. Product specialists are available to help you create your
           dream space.
         </p>
+        <div class="button-container">
+          <button class="btn btn--left disable">
+            <img src="./images/icon-angle-left.svg" alt="left angle" />
+          </button>
+          <button class="btn btn--right">
+            <img src="./images/icon-angle-right.svg" alt="right angle" />
+          </button>
+        </div>
       </div>
     </div>
-    <!-- 
 
-  Discover innovative ways to decorate
-
-  We provide unmatched quality, comfort, and style for property owners across the country. 
-  Our experts combine form and function in bringing your vision to life. Create a room in your 
-  own style with our collection and make your property a reflection of you and what you love.
-
-
-
-  We are available all across the globe
-
-  With stores all over the world, it's easy for you to find
-  furniture for your home or place of business. Locally, we’re
-  in most major cities throughout the country. Find the branch
-  nearest you using our store locator. Any questions? Don't
-  hesitate to contact us today.
-
-  
-
-  Manufactured with the best materials
-
-  Our modern furniture store provide a high level of quality. Our company has invested in advanced technology 
-  to ensure that every product is made as perfect and as consistent as possible. With three decades of 
-  experience in this industry, we understand what customers want for their home and office.
-
-  
-
-   -->
     <script src="./index.js"></script>
   </body>
 </html>
