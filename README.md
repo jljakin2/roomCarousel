@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [link](https://dark-light-todo-list.vercel.app/)
+- Live Site URL: [link](https://room-carousel.vercel.app/)
 
 ## My process
 
@@ -45,13 +45,12 @@ Users should be able to:
 
 ### What I learned
 
-I feel like I have a fairly solid process for creating full-width carousels not. Especially when it comes to adding interesting animations/transitions to them. The process is as follows:
+I feel like I have a fairly solid process for creating full-width carousels now. Especially when it comes to adding interesting animations/transitions to them. The process is as follows:
 
 - create the track
 - write markup for each "slide"
 - set all slides to position absolute
-- use vanilla js to grab size of images and
-  place them next to each other so when the slider buttons are pressed, the slides translateX based on if the forward/previous buttons are pressed
+- use vanilla js to grab size of images and place them next to each other so when the slider buttons are pressed, the slides translateX the amount of the slide width and moves forward/backward based on if the forward/previous buttons are pressed
 
 ## Author
 
